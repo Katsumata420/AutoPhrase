@@ -1,3 +1,4 @@
+import sys
 from glob import glob
 import multiprocessing as mp
 import xml.etree.ElementTree as ET
@@ -46,7 +47,8 @@ def process_fn(fn):
     return all_titles, quality_titles    
 
 if __name__=="__main__":
-    TARGET_DIRECTORY = "text"
+    # TARGET_DIRECTORY = "text"
+    TARGET_DIRECTORY = sys.argv[1]
 
     # Extract all titles.
     fns = glob(f"{TARGET_DIRECTORY}/*/wiki_*")
