@@ -1,5 +1,7 @@
 # AutoPhrase: Automated Phrase Mining from Massive Text Corpora
 
+日本語での利用法は次の解説記事もご覧ください： https://toa-hakobune.hatenablog.com/entry/2021/09/04/154453
+
 ## Publications
 
 Please cite the following two papers if you are using our tools. Thanks!
