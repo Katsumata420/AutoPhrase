@@ -11,7 +11,7 @@ services:
     environment:
       RAW_TRAIN: ${TRAIN_DATA:-data/input.txt}
       ENABLE_POS_TAGGING: 1
-      MIN_SUP: 30
+      MIN_SUP: ${MIN_SUP:-30}
       THREAD: 10
       MODEL: ${MODEL_PATH:-models/MyModel}
       TEXT_TO_SEG: ${TRAIN_DATA:-data/input.txt}
